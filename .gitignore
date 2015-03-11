@@ -1,3 +1,8 @@
 
+# The aliases folder can be used to load local aliases.
+aliases/*
+!aliases/.gitkeep
+
+# This folder contains symbolic links to the scripts in the available directory.
 enabled/*
 !enabled/.gitkeep
