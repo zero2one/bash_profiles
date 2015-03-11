@@ -6,10 +6,10 @@
 
 
 
-# Add the Zend bin directory to the command line.
+##
+# Adds the bin directory, created during the instalation of Zend Server, to the
+# $PATH variable.
+##
 PATH=$PATH:/usr/local/zend/bin
-
-# We don't need mysql as we have installed it seperatly (see mysql.sh)
-#:/usr/local/zend/mysql/bin
 
 LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/zend/lib
