@@ -2,7 +2,7 @@
 
 
 # Define root path so we can use to construct include paths.
-BASH_PROFILES=`dirname ~/.bash_profiles/bash_profiles.sh`
+BASH_PROFILES="$HOME/.bash_profiles"
 
 # Load all scripts in the .bash_profiles/enabled/ subdirectory (if any).
 if [ "$(ls $BASH_PROFILES/enabled)" ]; then
@@ -23,3 +23,6 @@ if [ "$(ls $BASH_PROFILES/aliases)" ]; then
   done
 
 fi
+
+# Variable cleanup.
+unset BASH_PROFILES
