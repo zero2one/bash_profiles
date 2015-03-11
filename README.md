@@ -12,7 +12,7 @@ Replace the .bash_profile folder within your home folder (/Users/<your username>
 
 ```
 $ mv ~/.bash_profile ~/.bash_profile.BAK
-$ ln -s ~/.bash_profiles/.bash_profile ~/.bash_profile
+$ ln -s ~/.bash_profiles/bash_profile.sh ~/.bash_profile
 ```
 
 Close and reopen the terminal window or reload the .bash_profile source by running the following command:
