@@ -106,7 +106,7 @@ $ phpcsd /path/to/file_or_folder to check.
 ```
 $ composer global require drupal/coder
 $ phpcs --config-set installed_paths ~/.composer/vendor/drupal/coder/coder_sniffer
-``
+```
 
 ### git.sh
 **Support for latest git version.**
