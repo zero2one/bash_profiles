@@ -18,10 +18,4 @@
 #    $ phpcs --config-set installed_paths ~/.composer/vendor/drupal/coder/coder_sniffer
 ##
 
-
-# File & folders to ignore during coder reviews.
-ignore_patterns="*.features.*,*.field_group.inc,*.strongarm.inc,*.ds.inc,*.context.inc,*.views_default.inc,*.file_default_displays.inc"
-
-alias phpcsd='phpcs --standard=Drupal -p --colors --ignore=$ignore_patterns'
-
-unset ignore_patterns
+alias phpcsd='phpcs --standard=Drupal -p --colors --ignore=*.features.*,*.field_group.inc,*.strongarm.inc,*.ds.inc,*.context.inc,*.views_default.inc,*.file_default_displays.inc,*.facetapi_defaults.inc'
