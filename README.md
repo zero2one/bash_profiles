@@ -200,16 +200,3 @@ Add the current path to the terminal window & tab.
 This will lookup the current path, create a shorter version out of it and add it as title to the terminal window & tab.
 
 ![terminal_window](https://cloud.githubusercontent.com/assets/133124/6603897/1d661336-c825-11e4-8420-ae845fcaf11f.png)
-
-
-### zend_framework.sh
-Add alias for the Zend Framework 1 command line tool.
-It uses the zend_framework that is installed together with Zend Server.
-
-```
-$ zf
-```
-
-
-### zend_server.sh
-Adds the bin directory, created during the instalation of Zend Server, to the $PATH variable.
