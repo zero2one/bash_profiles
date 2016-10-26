@@ -14,6 +14,8 @@ export PATH="$HOME/.composer/vendor/bin:$PATH"
 
 ##
 # Run composer without X-Debug.
+#
+# Source: http://stackoverflow.com/a/36723363
 ##
 function php_no_xdebug {
   local temporaryPath="$(mktemp -t php.XXXX).ini"
@@ -33,4 +35,4 @@ alias composer="php_no_xdebug /usr/local/bin/composer"
 
 # On MacOS with composer installed using brew, comment previous line
 # Install jq by executing `brew install jq` and uncomment following line.
-# php_no_xdebug /usr/local/Cellar/composer/`brew info --json=v1 composer | jq -r '.[0].installed[0].version'`/libexec/composer.phar $@
+# alias composer="php_no_xdebug /usr/local/Cellar/composer/`brew info --json=v1 composer | jq -r '.[0].installed[0].version'`/libexec/composer.phar"
