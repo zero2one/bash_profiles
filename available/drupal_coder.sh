@@ -18,4 +18,4 @@
 #    $ phpcs --config-set installed_paths ~/.composer/vendor/drupal/coder/coder_sniffer
 ##
 
-alias phpcsd="phpcs --standard=Drupal -p --colors --ignore=*.features.inc,*.features.*.inc,*.field_group.inc,*.strongarm.inc,*.ds.inc,*.context.inc,*.pages.inc,*.pages_default.inc,*.views_default.inc,*.file_default_displays.inc,*.facetapi_defaults.inc,dist,node_modules,bower_components,ckeditor-plugins --extensions=php,module,inc,install,test,profile,theme,js,css,info,txt"
+alias phpcsd="phpcs --standard=Drupal -p --colors --ignore=*.features.inc,*.features.*.inc,*.field_group.inc,*.strongarm.inc,*.ds.inc,*.context.inc,*.pages.inc,*.pages_default.inc,*.views_default.inc,*.file_default_displays.inc,*.facetapi_defaults.inc,*.openlayers_styles.inc,dist,node_modules,bower_components,ckeditor-plugins --extensions=php,module,inc,install,test,profile,theme,js,css,info,txt"
