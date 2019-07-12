@@ -16,6 +16,6 @@
 #      (Note: If this install fails with a 404 error, and you already have git
 #      installed, just remove the git part of this brew install)
 ##
-if [ -f `brew --prefix`/etc/bash_completion ]; then
-  . `brew --prefix`/etc/bash_completion
-fi
+#if [ -f `brew --prefix`/etc/bash_completion ]; then
+#  . `brew --prefix`/etc/bash_completion
+#fi
