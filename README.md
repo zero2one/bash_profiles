@@ -18,12 +18,6 @@ Or [clone](https://github.com/zero2one/bash_profiles) this repository within you
 $ git clone https://github.com/zero2one/bash_profiles.git ~/.bash_profiles
 ```
 
-Make sure that the `bash_profile.sh` script is executable:
-
-```
-$ chmod +x ~/.bash_profiles/bash_profile.sh
-```
-
 Replace the `.bash_profile` file within your home folder (`/Users/<your username>/.bash_profile`) by removing the original file and replace it with a symlink to the `bash_profile.sh` script in the `.bash_profiles` folder.
 
 ```
